@@ -1,0 +1,46 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.custom-root {
+    -fx-background-color: #4682B4; /* Set your desired color here */
+    -fx-font-size: 23.0px; /* Set the font size */
+    -fx-font-family: "Arial"; /* Set the font family */
+    -fx-font-weight: bold; /* Set the font weight */
+    -fx-alignment: center; /* Set the text alignment to center */
+    -fx-text-fill: white; /* Set the text color */
+}
+
+.text-style{
+	-fx-font-size: 20.0px;
+	-fx-stroke: #4682B4;
+}
+
+.button-style{
+	-fx-background-radius: 30.0;
+    -fx-background-insets: 0.0,1.0,1.0;
+    -fx-background-color: #4682B4;
+    -fx-alignment: center; /* Set the text alignment to center */
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-background-color: white; /* color of table border */
+}
+
+.table-view .column-header {
+    -fx-background-color: #c9e9f6; /* color first row (name of columns) */
+    -fx-text-fill: white;
+    -fx-font-size: 14.0px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: white; /* color of odd row */
+    -fx-text-fill: #333333;
+    -fx-font-size: 12.0px;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #c9e9f6; /* color of even row */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #4682B4; /* color of row when selected */
+}
